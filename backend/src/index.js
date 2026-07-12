@@ -26,7 +26,7 @@ app.use(cookieParser());
 app.use(helmet());
 
 
-//rate limiting
+
 app.use(apiLimiter); // Apply to all routes
 app.use("/user", authLimiter, authRouter); 
 
