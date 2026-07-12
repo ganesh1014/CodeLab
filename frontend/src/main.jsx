@@ -12,7 +12,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <Provider store={store}>
       <BrowserRouter>
-        <ThemeProvider>    {/* ← Wraps everything */}
+        <ThemeProvider>
           <App />
         </ThemeProvider>
       </BrowserRouter>
