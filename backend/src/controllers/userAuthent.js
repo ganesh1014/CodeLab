@@ -104,10 +104,7 @@ const login = async (req,res)=>{
     }
 }
 
-const data= async(req,res)=>{
-  const result=await User.findById(req.params.id)
-  res.send(result);
-}
+
 
 // logOut feature
 
@@ -251,4 +248,4 @@ const deleteProfile = async(req,res)=>{
 }
 
 
-module.exports = {register, login,logout,adminRegister,deleteProfile, data, getAllUsers, updateUserRole};
+module.exports = {register, login,logout,adminRegister,deleteProfile, getAllUsers, updateUserRole};

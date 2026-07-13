@@ -1,11 +1,11 @@
 const express = require('express');
 
 const authRouter =  express.Router();
-const {register, login,logout, adminRegister,deleteProfile, data, getAllUsers, updateUserRole} = require('../controllers/userAuthent')
+const {register, login,logout, adminRegister,deleteProfile,getAllUsers, updateUserRole} = require('../controllers/userAuthent')
 const userMiddleware = require("../middleware/userMiddleware");
 const adminMiddleware = require('../middleware/adminMiddleware');
 
-authRouter.get('/data/:id',userMiddleware, data);
+
 // Register
 authRouter.post('/register', register);
 authRouter.post('/login', login);

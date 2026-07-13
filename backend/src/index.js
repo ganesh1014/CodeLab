@@ -27,7 +27,7 @@ app.use(helmet());
 
 
 
-app.use(apiLimiter); // Apply to all routes
+app.use(apiLimiter); 
 app.use("/user", authLimiter, authRouter); 
 
 

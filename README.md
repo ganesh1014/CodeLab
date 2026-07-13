@@ -33,7 +33,7 @@ The platform also includes a complete admin management system for creating probl
 * Problem explanations and coding guidance
 * Responsive user interface with dark mode support
 
-### 🎨 UI/UX Features
+### UI/UX Features
 
 * Consistent design system across all pages
 * Custom CodeLab brand identity using a blue-purple gradient theme
