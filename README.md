@@ -98,7 +98,7 @@ The platform also includes a complete admin management system for creating probl
 
 ![Video Management](./screenshots/admin/video-management.png)
 
-![Promote Admin](./screenshots/admin/promote-admin.png)
+![Promote Admin](./screenshots/admin/admin_promotion.png)
 
 ---
 
